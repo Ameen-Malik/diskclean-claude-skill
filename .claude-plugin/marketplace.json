@@ -1,0 +1,35 @@
+{
+  "marketplace": {
+    "name": "DiskClean Skills Marketplace",
+    "description": "Professional disk space analysis and cleanup skills for Claude Code",
+    "version": "1.0.0",
+    "author": "Ameen Malik",
+    "repository": "https://github.com/Ameen-Malik/diskclean-claude-skill"
+  },
+  "plugins": [
+    {
+      "name": "diskclean",
+      "displayName": "DiskClean - Disk Space Analyzer & Cleanup",
+      "description": "Comprehensive disk space analysis and cleanup skill. Automatically detects duplicates, large files, node_modules, temp files, and unused applications. Supports Windows, macOS, and Linux with safe deletion workflows.",
+      "version": "1.0.0",
+      "author": "Ameen Malik",
+      "license": "MIT",
+      "keywords": [
+        "disk-cleanup",
+        "storage",
+        "space-analysis",
+        "file-management",
+        "duplicates",
+        "node_modules",
+        "optimization"
+      ],
+      "skills": ["diskclean"],
+      "repository": "https://github.com/Ameen-Malik/diskclean-claude-skill",
+      "homepage": "https://github.com/Ameen-Malik/diskclean-claude-skill#readme",
+      "bugs": "https://github.com/Ameen-Malik/diskclean-claude-skill/issues",
+      "platforms": ["windows", "macos", "linux"],
+      "category": "productivity"
+    }
+  ]
+}
+

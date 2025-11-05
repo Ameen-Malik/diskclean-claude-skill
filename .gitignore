@@ -1,0 +1,58 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test Output
+test-output/
+*.test.log
+
+# Temporary Files
+*.tmp
+*.temp
+~$*
+
+# Package Manager
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build Output
+dist/
+build/
+out/
+
+# Personal Notes
+NOTES.md
+TODO.txt
+.personal/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
